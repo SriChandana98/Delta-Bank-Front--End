@@ -1,0 +1,25 @@
+<div>
+ <form class="modal-content animate" action="/action_page.php">
+  <div class="imgcontainer">
+    <img src="assets\ContactLogo.png" alt="LoginLogo" class="avatar">
+  </div>
+<div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" [(ngModel)]="username" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" [(ngModel)]="password" placeholder="Enter Password" name="psw"  required minlength="6" maxlength="10">
+          
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+<div class="container" style="background-color:#f1f1f1">
+<button type="button">Cancel</button>
+<span class="psw">Forgot <a href="#">password?</a></span>
+</div>
+</form>
+</div>
+
+  

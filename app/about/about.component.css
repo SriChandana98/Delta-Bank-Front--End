@@ -1,0 +1,107 @@
+body, html { height: 100%;margin: 0;}
+
+        .bg {
+        
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+        .image { 
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+          }
+        
+
+        .img{
+            text-align: center;
+            height:1000;
+            width:1000;
+            background-position: center;
+        }
+        
+
+        h1{
+            text-align: center;
+            color:brown;
+        }
+        h3{
+            text-align: center;
+            color:lightcoral;
+        }
+        .container {
+            position: relative;
+          }
+          
+          .topleft {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            font-size: 18px;
+            background-color: azure;
+  width: 400px;
+  border: 15px solid khaki;
+  padding: 50px;
+  margin: 20px;
+          }
+          .topright {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            font-size: 18px;
+            background-color: azure;
+  width: 400px;
+  border: 15px solid khaki;
+  padding: 50px;
+  margin: 20px;
+          }
+          .bottomleft {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+            background-color: azure;
+            width: 400px;
+  border: 15px solid khaki;
+  padding: 50px;
+  margin: 20px;
+          }
+          .bottomright {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            font-size: 18px;
+            background-color: azure;
+  width: 400px;
+  border: 15px solid khaki;
+  padding: 50px;
+  margin: 20px;
+          }
+          .center {
+            position: absolute;
+            left: 33%;
+            top: 50%;
+            
+            
+            text-align: center;
+            font-size: 18px;
+            background-color: azure;
+            width: 400px;
+            border: 15px solid khaki;
+            padding: 50px;
+            margin: 20px;
+            }
+          * {
+            box-sizing: border-box;
+          }
+          
+          .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+          }.row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }

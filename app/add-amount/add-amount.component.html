@@ -1,0 +1,9 @@
+
+<h1>your account number is  {{accnum}}</h1>
+<h1>ADD YOUR MONEY</h1>
+<form ngNativeValidate>
+    <label for=" amount"><b>Amount</b></label>
+    <input type=text name=amount [(ngModel)]=amount required>
+    <button type="submit" (click)= "addAmount()" class="addamnt">Add</button>
+    <h3>{{status}}</h3>
+</form>

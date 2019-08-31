@@ -1,0 +1,16 @@
+.nav-pills{
+    float: right;
+    }
+    .imgLogo{
+        float: left;
+    }
+    .jumbotron-fluid{
+     background-color: rgb(95, 170, 85) 
+    }
+    display-4{
+        font-family: "Arial Black";
+    }
+    .nav-link > a:hover {
+        background-color:black;
+        
+    }

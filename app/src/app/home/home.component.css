@@ -1,0 +1,140 @@
+.nav-pills{
+    float: right;
+    }
+    .imgLogo{
+        float: left;
+    }
+    .jumbotron-fluid{
+        background-color: rgb(95, 170, 85);
+        width:1350px;
+    }
+    display-4{
+        font-family: "Arial Black";
+    }
+    .nav-link > a:hover {
+        background-color:black;
+        
+      }
+       
+      
+      
+    
+
+
+
+      *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+        outline: none;
+    }
+    .footer-main-div{
+        width:100%;
+        height:auto;
+        margin: auto;
+        background: #272727;
+        padding: 20px 0px;
+    }
+    .footer-social-icons{
+        width:100%;
+        height: auto;
+        margin: auto;
+    }
+    .footer-social-icons ul{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .footer-social-icons ul li{
+        display:inline-block;
+        width:50px;
+        height:50px;
+        margin:0px 10px;
+        border-radius:100%;
+        background: #32cd32;
+    }
+    .footer-social-icons ul li a{
+        color:#272727;
+        font-size: 25px;
+        display: block;
+    }
+    .footer-social-icons ul li a i{
+        line-height:50px;
+    }
+    .footer-menu-one{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .footer-menu-one ul{
+        margin:0px;
+        padding: 0px;
+        text-align:center;
+    }
+    .footer-menu-one ul li{
+        display: inline-block;
+        margin: 0px 15px;
+    }
+    .footer-menu-one ul li a{
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .footer-menu-one ul  li a:hover{
+      color:#ffff00;
+    }
+    .footer-menu-two{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .footer-menu-two ul{
+        margin:0px;
+        padding: 0px;
+        text-align:center;
+    }
+    .footer-menu-two ul li{
+        display: inline-block;
+        margin: 0px 15px;
+    }
+    .footer-menu-two ul li a{
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;	
+        text-transform: uppercase;
+    }
+    .footer-menu-two ul  li a:hover{
+      color:#ffff00;
+      
+    }
+    .footer-bottom{
+      width:100%;
+      height:auto;
+      margin:auto;
+      background:#32cd32;
+      padding:10px;
+    }
+    .footer-bottom{
+      font-family:arial;
+      font-size:14px;
+      text-align:center;
+      color:#fff;
+      font-weight:600;
+      letter-spacing:1px;
+    }
+    .footer-bottom p a{
+      color:#fff;
+    }
+    .footer-bottom p a:hover{
+      color:#272727;
+    }
+      
+      

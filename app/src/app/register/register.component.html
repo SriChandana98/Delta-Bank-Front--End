@@ -1,0 +1,37 @@
+<div>
+<form ngNativeValidate>
+  <div class="container">
+    <h1 style=color:#C3073F;>Register To new Account!!</h1>
+    <p style=color:#C3073F;>Please fill in this form to create an account.</p>
+    <hr>
+    
+    <label for="First Name" style=color:#C3073F;><b>First Name</b></label>
+    <input type="text" placeholder="First Name" [(ngModel)]= firstname name="firstname" required>
+
+    <label for="Last Name" style=color:#C3073F;><b>Last Name</b></label>
+    <input type="text" placeholder="Last Name" [(ngModel)]= lastname name="lastname" required>
+
+    <label for="phone" style=color:#C3073F;><b>Phone</b></label>
+    <input type="text" placeholder="Phone number"  [(ngModel)]= phone name="phone" required>
+
+    <label for="Aadhar" style=color:#C3073F;><b>Aadhar</b></label>
+    <input type="text" placeholder="Enter Aadhar" [(ngModel)]= aadhar  name="aadhar" required>
+
+    <label for="email" style=color:#C3073F;><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" [(ngModel)]= email name="email" required>
+
+    <label for="psw" style=color:#C3073F;><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" [(ngModel)]= psw name="psw" required>
+
+    <label for="pswrepeat" style=color:#C3073F;><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" [(ngModel)]= pswrepeat name="pswrepeat" required>
+    
+    <p style=color:#C3073F;>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button"  class="cancelbtn">Cancel</button>
+      <button type="submit" (click)= "registration()" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+</div>
